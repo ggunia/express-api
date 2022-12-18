@@ -1,5 +1,7 @@
 ## APIs implemented
 
+You can import `postman_collection.json` to test more efficiently in Postman.
+
 1. ***GET*** `/contracts/:id` - Returns the contract only if it belongs to the profile calling. better fix that!
 
 2. ***GET*** `/contracts` - Returns a list of contracts belonging to a user (client or contractor), the list should only contain non terminated contracts.
